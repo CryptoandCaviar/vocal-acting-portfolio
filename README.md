@@ -97,11 +97,11 @@
             <h2>Demos</h2>
             <p>Listen to some of my featured voice acting work:</p>
             <audio controls>
-                <source src="demo1.mp3" type="audio/mpeg">
+                <source src="COMMERCIAL%20DEMO%20WITH%20BG%20MUSIC.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
             <audio controls>
-                <source src="demo2.mp3" type="audio/mpeg">
+                <source src="COMMERCIAL%20DEMO%20WITHOUT%20BG%20MUSIC.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
         </section>
@@ -126,5 +126,8 @@
     <footer>
         <p>&copy; 2025 Johnny Mitchell | All Rights Reserved</p>
     </footer>
+</body>
+</html>
+
 </body>
 </html>
