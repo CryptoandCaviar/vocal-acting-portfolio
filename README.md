@@ -96,10 +96,12 @@
         <section id="demos" class="demos">
             <h2>Demos</h2>
             <p>Listen to some of my featured voice acting work:</p>
+            <h3>COMMERCIAL DEMO WITH BG MUSIC 2.0</h3>
             <audio controls>
-                <source src="COMMERCIAL DEMO WITH BG MUSIC.mp3" type="audio/mpeg">
+                <source src="COMMERCIAL DEMO WITH BG MUSIC 2.0.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+            <h3>COMMERCIAL DEMO WITHOUT BG MUSIC</h3>
             <audio controls>
                 <source src="COMMERCIAL DEMO WITHOUT BG MUSIC.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
