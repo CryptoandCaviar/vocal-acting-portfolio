@@ -53,24 +53,15 @@
             padding: 2rem;
             border-radius: 10px;
         }
-        .contact form {
-            display: grid;
-            gap: 1rem;
+        .contact {
+            background: #ecf0f1;
+            padding: 2rem;
+            border-radius: 10px;
         }
-        .contact input, .contact textarea {
-            padding: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 100%;
-        }
-        .contact button {
-            background: #1abc9c;
-            color: white;
-            border: none;
-            padding: 1rem;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1rem;
+        .contact a {
+            color: #1abc9c;
+            text-decoration: none;
+            font-weight: bold;
         }
         footer {
             text-align: center;
@@ -99,12 +90,12 @@
             <h3>COMMERCIAL DEMO WITH BG MUSIC 2.1</h3>
             <audio controls>
                 <source src="COMMERCIAL%20DEMO%20WITH%20BG%20MUSIC%202.1.mp3" type="audio/mpeg">
-                
+               
             </audio>
             <h3>COMMERCIAL DEMO WITHOUT BG MUSIC</h3>
             <audio controls>
                 <source src="COMMERCIAL%20DEMO%20WITHOUT%20BG%20MUSIC.mp3" type="audio/mpeg">
-                
+               
             </audio>
         </section>
 
@@ -115,13 +106,9 @@
 
         <section id="contact" class="contact">
             <h2>Contact</h2>
-            <p>Have a project in mind? Let's work together! Fill out the form below to get in touch:</p>
-            <form action="https://formspree.io/f/{your-form-id}" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <p>You can reach me at:</p>
+            <p><strong>Email:</strong> <a href="mailto:cryptoandcaviarjohnny@gmail.com">cryptoandcaviarjohnny@gmail.com</a></p>
+            <p><strong>Phone:</strong> 12503175955</p>
         </section>
     </div>
 
