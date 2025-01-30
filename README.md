@@ -106,7 +106,16 @@
         </section>
         <section id="about" class="about">
             <h2>About Me</h2>
-            <p>Hi, I'm Johnny Mitchell, a passionate voice actor with over a decade of experience bringing characters and stories to life. With a versatile range and a commitment to excellence, I specialize in delivering high-quality voiceovers for commercials, animations, audiobooks, and more.</p>
+            <p><strong>Johnny Mitchell – Versatile Voice Actor with Over Two Decades of Audio Expertise</strong></p>
+            <p>With over 20 years of experience in performance and audio production, I bring a unique blend of creativity, professionalism, and technical precision to every project. My voice is dynamic, adaptable, and ready to meet your needs, whether you're looking for:</p>
+            <ul>
+                <li><strong>Commercials:</strong> Polished, relatable, and persuasive tones to captivate audiences.</li>
+                <li><strong>Narration:</strong> Clear and compelling storytelling for audiobooks, documentaries, and e-learning.</li>
+                <li><strong>Character Work:</strong> A wide range of voices and emotions for animation, video games, and podcasts.</li>
+                <li><strong>YouTube Content:</strong> Engaging, friendly, and audience-focused delivery to enhance your videos.</li>
+            </ul>
+            <p>I combine my vocal range with a deep understanding of audio engineering to deliver crisp, high-quality recordings that exceed expectations. Whether you need warm and approachable, bold and authoritative, or quirky and unique, I’m ready to bring your project to life.</p>
+            <p><strong>Let’s work together to make your vision a reality!</strong></p>
         </section>
 
         <section id="contact" class="contact">
