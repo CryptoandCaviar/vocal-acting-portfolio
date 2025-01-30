@@ -102,11 +102,7 @@
                 <source src="Character%20Demo%202025%20-%20Johnny%20Mitchell.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-            <h3>CHARACTER DEMO 2025 Johnny M (Vocal Only)</h3>
-            <audio controls>
-                <source src="CHARACTER%20DEMO%202025%20Johnny%20M%20(Vocal%20Only).mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+            
         </section>
         <section id="about" class="about">
             <h2>About Me</h2>
