@@ -90,15 +90,24 @@
             <h3>COMMERCIAL DEMO WITH BG MUSIC 2.1</h3>
             <audio controls>
                 <source src="COMMERCIAL%20DEMO%20WITH%20BG%20MUSIC%202.1.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
+                
             </audio>
             <h3>COMMERCIAL DEMO WITHOUT BG MUSIC</h3>
             <audio controls>
                 <source src="COMMERCIAL%20DEMO%20WITHOUT%20BG%20MUSIC.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
+                
+            </audio>
+        <h3>Character Demo 2025 - Johnny Mitchell</h3>
+            <audio controls>
+                <source src="Character%20Demo%202025%20-%20Johnny%20Mitchell.mp3" type="audio/mpeg">
+                
+            </audio>
+            <h3>CHARACTER DEMO 2025 Johnny M (Vocal Only)</h3>
+            <audio controls>
+                <source src="CHARACTER%20DEMO%202025%20Johnny%20M%20%28Vocal%20Only%29.mp3" type="audio/mpeg">
+                
             </audio>
         </section>
-
         <section id="about" class="about">
             <h2>About Me</h2>
             <p>Hi, I'm Johnny Mitchell, a passionate voice actor with over a decade of experience bringing characters and stories to life. With a versatile range and a commitment to excellence, I specialize in delivering high-quality voiceovers for commercials, animations, audiobooks, and more.</p>
