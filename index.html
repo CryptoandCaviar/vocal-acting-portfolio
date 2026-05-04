@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Johnny Mitchell voice acting portfolio featuring commercial, narration, character, audiobook, and YouTube voiceover demos." />
+  <title>Johnny Mitchell Voice Acting | Commercial, Narration & Character VO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --panel: #1f2937;
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --accent: #38bdf8;
+      --accent-2: #22c55e;
+      --border: rgba(255,255,255,0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0, #0f172a 48%, #020617 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); }
+
+    header {
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      color: var(--accent-2);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 5rem);
+      line-height: 1;
+      margin: 0;
+      letter-spacing: -0.05em;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 1.25rem auto 0;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+
+    nav {
+      margin-top: 2rem;
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a, .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0.75rem 1rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: #00111f;
+      border-color: transparent;
+    }
+
+    main {
+      width: min(1120px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 3rem 0;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      background: rgba(15,23,42,0.82);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: clamp(1.25rem, 3vw, 2rem);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.28);
+    }
+
+    h2 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.6rem, 3vw, 2.25rem);
+      letter-spacing: -0.03em;
+    }
+
+    h3 {
+      margin: 0 0 0.75rem;
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .demo-card, .service-card {
+      background: rgba(31,41,55,0.78);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+
+    ul {
+      margin: 1rem 0 0;
+      padding-left: 1.2rem;
+      color: var(--muted);
+    }
+
+    p { color: var(--muted); }
+
+    .contact-box {
+      display: grid;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .contact-row {
+      background: rgba(31,41,55,0.78);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 2rem 1rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Voice Actor • Audio Producer • Storyteller</div>
+    <h1>Johnny Mitchell Voice Acting</h1>
+    <p>Commercial, narration, character, audiobook, and YouTube voiceover work with professional audio production experience behind the microphone.</p>
+    <nav aria-label="Primary navigation">
+      <a href="#demos">Demos</a>
+      <a href="#services">Voice Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="button primary">Contact Johnny</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="demos">
+      <h2>Voice Demos</h2>
+      <p>Featured commercial and character voice acting samples.</p>
+      <div class="grid">
+        <article class="demo-card">
+          <h3>Commercial Demo — With Background Music</h3>
+          <audio controls>
+            <source src="COMMERCIAL%20DEMO%20WITH%20BG%20MUSIC%202.1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </article>
+        <article class="demo-card">
+          <h3>Commercial Demo — Dry Voice</h3>
+          <audio controls>
+            <source src="COMMERCIAL%20DEMO%20WITHOUT%20BG%20MUSIC.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </article>
+        <article class="demo-card">
+          <h3>Character Demo 2025</h3>
+          <audio controls>
+            <source src="Character%20Demo%202025%20-%20Johnny%20Mitchell.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </article>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Voice Work</h2>
+      <div class="grid">
+        <div class="service-card">
+          <h3>Commercials</h3>
+          <p>Polished, clear, relatable delivery for ads, promos, products, and brand campaigns.</p>
+        </div>
+        <div class="service-card">
+          <h3>Narration</h3>
+          <p>Clean storytelling for audiobooks, documentaries, explainers, corporate reads, and e-learning.</p>
+        </div>
+        <div class="service-card">
+          <h3>Character Work</h3>
+          <p>Dynamic voices for games, animation, podcasts, audio drama, and creative content.</p>
+        </div>
+        <div class="service-card">
+          <h3>YouTube & Online Content</h3>
+          <p>Audience-focused voiceover for creators, brands, educational channels, and short-form campaigns.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Johnny</h2>
+      <p><strong>Johnny Mitchell is a versatile voice actor with over two decades of performance and audio production experience.</strong></p>
+      <p>He brings vocal range, production knowledge, and a practical understanding of what makes audio work in real projects: clarity, timing, tone, and clean delivery.</p>
+      <ul>
+        <li>Commercial, narration, character, and content voiceover</li>
+        <li>Experienced with audio production, editing, and finished recording standards</li>
+        <li>Comfortable with warm, authoritative, conversational, comedic, and character-driven reads</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For booking, demos, availability, or project questions:</p>
+      <div class="contact-box">
+        <div class="contact-row"><strong>Email:</strong> <a href="mailto:RemoteWorkJohnny5@gmail.com">RemoteWorkJohnny5@gmail.com</a></div>
+        <div class="contact-row"><strong>Phone:</strong> <a href="tel:+12503175955">+1 (250) 317-5955</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Johnny Mitchell Voice Acting. All rights reserved.</p>
+  </footer>
+</body>
+</html>
